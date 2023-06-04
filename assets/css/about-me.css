@@ -1,5 +1,10 @@
+.about-me,
+.about-me-info {
+  grid-column: 1 / span 12;
+}
+
 .about-me {
-  background-color: var(--accent-text-color);
+  background-color: var(--accent-bg-color2);
   padding: 60px 10px;
 }
 
@@ -18,7 +23,12 @@
 }
 
 @media screen and (min-width: 992px) {
+  .about-me,
+  .about-me-info {
+    grid-column: 2 / -2;
+  }
+  
   .about-me {
-    padding: 100px 10px;
+    padding: 50px 10px;
   }
 }

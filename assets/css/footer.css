@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--accent-color);
+  color: white;
+  padding: 5px;
+}
+
+.img-foot {
+  width: 30%;
+  height: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer {
+    padding: 30px;
+  }
+
+  .img-foot {
+    width: auto;
+    margin: 5px;
+  }
+  
+  .title-foot{
+    font-size: 1.5rem;
+  }
+}
